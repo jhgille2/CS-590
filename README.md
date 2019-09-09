@@ -1,4 +1,4 @@
-https://mybinder.org/v2/gh/jhgille2/CS-590/master
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jhgille2/CS-590/master)
 # CS-590
 ## CS-590
 ### CS-590
