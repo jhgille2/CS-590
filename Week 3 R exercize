@@ -1,20 +1,28 @@
+# Create two vectors (A and B), where A is (1,2,3) and B is (4,5,6). With these vectors, use the cbind() or rbind() function to create a 2 x 3 matrix from the vectors. Based on the output, determine the appropriate function to use
 A <- c(1,2,3)
 B <- c(4,5,6)
 
 rbind(A, B)
 
-
+# Create a 3 x 3 matrix consisting of the numbers 1-9. Create this matrix using the shortcut 1:9 and by specifying the nrow argument in the matrix() function call. Assign this matrix to the variable *ma
 mat <- matrix(c(1:9), nrow = 3)
 mat
+
+# Confirm that mat is a matrix
 is.matrix(mat)
 
-
+# Create a 5 x 5 matrix consisting of the numbers 1-25 and assign it to the variable mat2. The top row should be the numbers 1-5
 mat2 <- matrix(1:25, byrow = TRUE, nrow = 5)
 mat2
 
+# Use index notation to grab a subsection of mat2 that replicates the output
 mat2[2:3, 2:3]
+
+# Use index notation to grab a subsection of mat2 that replicates the output
 mat2[4:5, 4:5]
 
+# What is the sum of all of the elements of mat2?
 sum(mat2)
 
+# Find out how to use the Built-in R Function runif() to create a 4 x 5 matrix consisting of 20 random numbers
 matrix(runif(20), nrow = 4, ncol = 5)
