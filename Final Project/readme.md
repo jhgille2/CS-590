@@ -12,4 +12,5 @@ My end goal will be to both explore the models used to account for this spatial 
 
 ##### Some to check out
 **Spatial data analysis in ecology and agriculture using R** https://catalog.lib.ncsu.edu/catalog/NCSU2664799
+
 **Contemporary statistical models for the plant and soil sciences** https://catalog.lib.ncsu.edu/catalog/NCSU1546264
