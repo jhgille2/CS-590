@@ -13,7 +13,7 @@ With spatial data, there may be a pattern where measurements taken physically ne
 Y(x, y) = T(x, y) + ╖(x, y) + ε(x, Y)
 </p>
 
-Where Y(x, y) is the value of whatever you are measuring al location (x, y), T(x, y) is the deterministic component of your model. In the case of agricultural data this could include the genotypic effects, ╖(x, y) is the contribution from the spatial random proces, and ε(x, Y) is the residual random variable. 
+Where Y(x, y) is the value of whatever you are measuring al location (x, y), T(x, y) is the deterministic component of your model, (in the case of agricultural data this could include the genotypic effects, and large-scale location/year effects), ╖(x, y) is the contribution from the spatial random proces, and ε(x, Y) is the residual random variable. 
 
 ### Literature
 #### Textbooks
