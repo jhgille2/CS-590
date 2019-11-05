@@ -9,8 +9,11 @@ My end goal will be to both explore the models used to account for this spatial 
 ##### Spatial data analysis in ecology and agriculture using R - Chapter 3
 With spatial data, there may be a pattern where measurements taken physically near one another tend to be more similar to one another, or vary in a similar way to one another. This pattern is called *positive autocorrelation* and is fairly common in spatial data. In a very general form, a model which uses this data can be written as...
 
-$Y(x, y) = T(x, y) + ╖(x, y) + ε(x, Y)$
+<p align = 'center'>
+Y(x, y) = T(x, y) + ╖(x, y) + ε(x, Y)
+</p>
 
+Where Y(x, y) is the value of whatever you are measuring al location (x, y), T(x, y) is the deterministic component of your model. In the case of agricultural data this could include the genotypic effects, ╖(x, y) is the contribution from the spatial random proces, and ε(x, Y) is the residual random variable. 
 
 ### Literature
 #### Textbooks
